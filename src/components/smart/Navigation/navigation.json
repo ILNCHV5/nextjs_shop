@@ -1,0 +1,93 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "name": "Camping",
+      "menuId": "One",
+      "dropdownItems": [
+        {
+          "id": 1,
+          "name": "X person tent",
+          "href": "/camping/x-person-tent"
+        },
+        {
+          "id": 2,
+          "name": "Camp chair and table set",
+          "href": "/camping/chair-table-set"
+        },
+        {
+          "id": 3,
+          "name": "Car roof setup",
+          "href": "/camping/car-roof-setup"
+        },
+        {
+          "id": 4,
+          "name": "40L pack /w built in chair",
+          "href": "/camping/40l-pack-chair"
+        },
+        {
+          "id": 5,
+          "name": "Handmade woodlands hatchet",
+          "href": "/camping/handmade-woorlands-hatchet"
+        },
+        {
+          "id": 6,
+          "name": "60L Backpack - green",
+          "href": "/camping/60l-backpack-green"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cooking",
+      "menuId": "Two",
+      "dropdownItems": [
+        {
+          "id": 1,
+          "name": "Handmade camping knife",
+          "href": "/cooking/handmade-camping-knife"
+        },
+        {
+          "id": 2,
+          "name": "Woodlands Coffee Mug",
+          "href": "/cooking/woodlands-coffee-mug"
+        },
+        {
+          "id": 3,
+          "name": "Gas stove set",
+          "href": "/cooking/gas-stove-set"
+        },
+        {
+          "id": 4,
+          "name": "Crock pot set",
+          "href": "/cooking/crock-pot-set"
+        },
+        {
+          "id": 5,
+          "name": "Non-stick camping pan",
+          "href": "/cooking/non-stick-camping-pan"
+        },
+        {
+          "id": 6,
+          "name": "Thermos set",
+          "href": "/cooking/thermos-set"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "id": 5,
+      "name": "About",
+      "href": "/about"
+    }
+  ]
+}
