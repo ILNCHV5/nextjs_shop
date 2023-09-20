@@ -45,7 +45,7 @@ function Navigation(WrappedComponent) {
             <CardMedia
               component='img'
               alt='logo'
-              src='images/logo/website_logo.svg'
+              src='../images/logo/website_logo.svg'
               style={{
                 height: '2rem',
                 width: 'auto',
