@@ -1,0 +1,44 @@
+.footerContainer * {
+  font-family: 'Montserrat';
+}
+
+.footerContainer {
+  width: 100%;
+  background-color: black;
+}
+.insideContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-right: 1rem;
+  gap: 2rem;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.columnHeading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+a.columnHeading:hover {
+  color: #37b34a;
+  text-decoration: underline;
+}
+.rowsContainer {
+  padding-top: 1rem;
+}
+.rows {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.4rem;
+}
+.rows:hover {
+  color: #37b34a;
+  text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Thermos Set",
+  "image": "../images/cooking/thermos-set/thermos-set.jpg",
+  "imageAlt": "thermos-set",
+  "price": "$49.99",
+  "description": " Keep your beverages piping hot or refreshingly cold during your camping adventures! This set includes a durable thermos flask and matching mugs, ensuring you stay hydrated in style. The thermos flask's double-wall insulation maintains the temperature of your drinks for hours, whether it's hot coffee on a chilly morning or ice-cold water on a scorching day. The mugs are designed for comfort, with easy-to-grip handles and spill-resistant lids. Stay refreshed and enjoy your favorite drinks wherever you go with our Thermos Set.",
+  "short-description": "Stay refreshed on your camping journey with our Thermos Set. Hot or cold, your drinks, your way.",
+  "properties": [
+    { "id": 1, "name": "Double wall insulation" },
+    { "id": 2, "name": "Matching mugs" },
+    { "id": 3, "name": "Comfortable handle" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Anti-spill lid" },
+    { "id": 6, "name": "Stylish" }
+  ]
+}

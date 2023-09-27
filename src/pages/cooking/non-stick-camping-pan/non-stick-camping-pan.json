@@ -1,0 +1,16 @@
+{
+  "title": "Non-Stick Camping Pan",
+  "image": "../images/cooking/non-stick-camping-pan/non-stick-camping-pan.jpg",
+  "imageAlt": "non-stick-camping-pan",
+  "price": "$43.99",
+  "description": "Cook up a storm in the great outdoors with our Non-Stick Camping Pan. This versatile pan is designed for campers who love to whip up delicious meals. Its non-stick surface ensures easy cooking and even easier cleanup, while the lightweight design makes it perfect for backpacking trips. The sturdy handle provides a secure grip, and the compact size fits easily into your camping gear. Whether you're frying eggs at sunrise or sautéing veggies under the stars, this pan is your trusty companion for outdoor cooking adventures.",
+  "short-description": "Elevate your outdoor cooking game with our Non-Stick Camping Pan. Delicious meals, no fuss.",
+  "properties": [
+    { "id": 1, "name": "Non-stick surface" },
+    { "id": 2, "name": "Lightweight" },
+    { "id": 3, "name": "Compact" },
+    { "id": 4, "name": "Foldable handle" },
+    { "id": 5, "name": "Easy cleanup" },
+    { "id": 6, "name": "Open-fire approved" }
+  ]
+}

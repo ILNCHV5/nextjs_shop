@@ -1,0 +1,16 @@
+{
+  "title": "Car Roof Camping Setup",
+  "image": "../images/camping/car-roof-setup/car-roof-setup.jpg",
+  "imageAlt": "car-roof-setup",
+  "price": "$399.99",
+  "description": " Take your camping to new heights with our innovative car roof camping setup. This space-saving solution turns your vehicle into a cozy sleeping haven, complete with a comfortable mattress. Whether you're embarking on a road trip or a remote camping adventure, this setup offers unparalleled convenience. It's easy to install, weather-resistant, and versatile enough to fit various car models. Imagine stargazing from the comfort of your car roof, with nature as your backdrop. Elevate your camping experience and unlock the potential of the great outdoors with this remarkable setup.",
+  "short-description": "Elevate your camping adventure with our car roof camping setup. Sleep comfortably wherever your journey takes you.",
+  "properties": [
+    { "id": 1, "name": "Easy Setup" },
+    { "id": 2, "name": "Space-saving" },
+    { "id": 3, "name": "Comfortable Mattress" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Weather-resistant" },
+    { "id": 6, "name": "Versatile" }
+  ]
+}

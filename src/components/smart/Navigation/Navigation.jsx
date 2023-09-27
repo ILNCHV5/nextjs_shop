@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box, Typography, CardMedia } from '@mui/material';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
+import Footer from '@/components/dumb/Footer/Footer';
 import { menuItems } from './navigation.json';
 import styles from './navigation.module.css';
 
@@ -195,6 +196,7 @@ function Navigation(WrappedComponent) {
           {/* mobile end */}
         </Box>
         <WrappedComponent {...props} />
+        <Footer />
       </Box>
     );
   };

@@ -1,0 +1,44 @@
+.pageContainer * {
+  font-family: 'Montserrat';
+}
+.pageContainer {
+  padding-bottom: 1.5rem;
+}
+.contentContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 5rem;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  color: black;
+}
+.textContainer * {
+  width: fit-content;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #37b34a;
+}
+.price:hover {
+  text-decoration: underline;
+}
+.description {
+  font-size: 0.8rem;
+}
+.propertiesContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+.property {
+  font-size: 0.8rem;
+}

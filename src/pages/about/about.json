@@ -1,0 +1,31 @@
+{
+  "title": "About Us",
+  "image": "../images/about/about.jpg",
+  "imageAlt": "about-us-tents",
+  "properties": [
+    {
+      "id": 1,
+      "name": "Welcome to Smart Camping, where outdoor adventure meets modern convenience. We're passionate about making camping smarter, more comfortable, and more enjoyable."
+    },
+    {
+      "id": 2,
+      "name": "As dedicated campers, we curate top-notch gear designed to enhance your outdoor experiences. From weather-resistant tents to compact stoves, we've got you covered."
+    },
+    {
+      "id": 3,
+      "name": "But Smart Camping is more than a store; it's a hub for outdoor enthusiasts. We're here to share our passion and expertise, helping you make the most of your outdoor adventures."
+    },
+    {
+      "id": 4,
+      "name": "Customer satisfaction is our priority. We stand behind every product, ensuring your shopping experience is smooth and enjoyable."
+    },
+    {
+      "id": 5,
+      "name": "We're advocates for responsible camping and environmental stewardship. Leave No Trace is our mantra."
+    },
+    {
+      "id": 6,
+      "name": "Choose Smart Camping for the smartest way to camp. Adventure awaits!"
+    }
+  ]
+}

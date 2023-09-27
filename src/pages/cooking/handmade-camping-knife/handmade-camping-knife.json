@@ -1,0 +1,16 @@
+{
+  "title": "Handmade Camping Knife",
+  "image": "../images/cooking/handmade-camping-knife/handmade-camping-knife.jpg",
+  "imageAlt": "handmade-camping-knife",
+  "price": "$139.99",
+  "description": "Crafted with precision and a passion for the outdoors, our handmade camping knife is a testament to quality and functionality. This versatile tool is an essential companion for any camping trip. Its razor-sharp blade ensures effortless cutting of rope, food, and more. The ergonomic handle provides a comfortable grip, reducing hand fatigue during prolonged use. With a durable construction, this camping knife is built to withstand the rigors of the wilderness. Equip yourself with this reliable tool to enhance your camping experience.",
+  "short-description": "Elevate your camping adventures with our handmade camping knife. Precision-crafted for durability and versatility.",
+  "properties": [
+    { "id": 1, "name": "Handmade" },
+    { "id": 2, "name": "Razor-sharp blade" },
+    { "id": 3, "name": "Ergonomic handle" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Multi-purpose" },
+    { "id": 6, "name": "High-quality steel" }
+  ]
+}

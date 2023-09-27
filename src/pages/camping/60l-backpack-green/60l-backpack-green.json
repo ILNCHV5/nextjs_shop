@@ -1,0 +1,16 @@
+{
+  "title": " 60L Backpack - Green",
+  "image": "../images/camping/60l-backpack-green/60l-backpack-green.jpg",
+  "imageAlt": "60l-backpack-green",
+  "price": "$129.99",
+  "description": "Our 60L green backpack is meticulously designed for the avid adventurer. With its ample storage space, comfortable straps, and rugged construction, it's the ideal choice for extended outdoor excursions. Whether you're hiking through pristine wilderness or embarking on a backpacking journey, this backpack keeps you organized and comfortable throughout. The spacious interior accommodates all your gear, while the durable materials withstand the challenges of the trail. Experience the outdoors like never before with this reliable and spacious backpack.",
+  "short-description": "Elevate your outdoor adventures with our 60L green backpack. Spacious, comfortable, and ready for any journey.",
+  "properties": [
+    { "id": 1, "name": "Spacious" },
+    { "id": 2, "name": "Adjustable straps" },
+    { "id": 3, "name": "Rugged design" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Multiple pockets" },
+    { "id": 6, "name": "Versatile" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Camping Chair and Table Set",
+  "image": "../images/camping/chair-table-set/chair-table-set.jpg",
+  "imageAlt": "chair-table-set",
+  "price": "$69.99",
+  "description": "Reimagine your camping experience with our versatile camping chair and table set. Picture yourself sitting by the campfire, sipping a hot beverage, with everything you need conveniently placed on the sturdy table beside you. This set is designed for outdoor enthusiasts who prioritize comfort and convenience. The foldable and lightweight chair is easy to transport, and the integrated cup holder keeps your drink secure. When you're done, simply fold it up and stow it away. Elevate your camping comfort with this all-in-one solution.",
+  "short-description": "Upgrade your outdoor relaxation with our camping chair and table set. Comfort and convenience in one package.",
+  "properties": [
+    { "id": 1, "name": "Foldable" },
+    { "id": 2, "name": "Compact" },
+    { "id": 3, "name": "Lightweight" },
+    { "id": 4, "name": "Sturdy" },
+    { "id": 5, "name": "Built-in cup holder" },
+    { "id": 6, "name": "Broad leg platforms" }
+  ]
+}

@@ -12,8 +12,8 @@
       "dropdownItems": [
         {
           "id": 1,
-          "name": "X person tent",
-          "href": "/camping/x-person-tent"
+          "name": "Multi-person tent",
+          "href": "/camping/multi-person-tent"
         },
         {
           "id": 2,
@@ -33,7 +33,7 @@
         {
           "id": 5,
           "name": "Handmade woodlands hatchet",
-          "href": "/camping/handmade-woorlands-hatchet"
+          "href": "/camping/handmade-woodlands-hatchet"
         },
         {
           "id": 6,
@@ -88,6 +88,11 @@
       "id": 5,
       "name": "About",
       "href": "/about"
+    },
+    {
+      "id": 6,
+      "name": "Contacts",
+      "href": "/contacts"
     }
   ]
 }

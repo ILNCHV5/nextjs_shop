@@ -1,0 +1,16 @@
+{
+  "title": "Handmade Woodlands Axe/Hatchet",
+  "image": "../images/camping/handmade-woodlands-hatchet/handmade-woodlands-hatchet.jpg",
+  "imageAlt": "handmade-woodlands-hatchet",
+  "price": "$99.99",
+  "description": " Embrace your inner woodsman with our meticulously handmade woodlands axe/hatchet. Crafted with precision and durability in mind, this tool is more than just an accessory; it's your trusty companion for the great outdoors. Whether you're chopping wood for a campfire or clearing a trail, its sharp blade and comfortable grip make every task a breeze. The high-quality steel ensures long-lasting performance even in rugged conditions. Take control of your outdoor adventures with this exceptional woodlands axe.",
+  "short-description": "Unleash your inner woodsman with our handmade woodlands axe. Durable and versatile for all your outdoor needs.",
+  "properties": [
+    { "id": 1, "name": "Handmade" },
+    { "id": 2, "name": "Durable" },
+    { "id": 3, "name": "Factory-sharpened" },
+    { "id": 4, "name": "Comfortable handle" },
+    { "id": 5, "name": "Versatile" },
+    { "id": 6, "name": "High-quality steel" }
+  ]
+}

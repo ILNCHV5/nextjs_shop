@@ -1,0 +1,16 @@
+{
+  "title": "Woodlands Coffee Mug",
+  "image": "../images/cooking/woodlands-coffee-mug/woodlands-coffee-mug.jpg",
+  "imageAlt": "woodlands-coffee-mug",
+  "price": "$12.99",
+  "description": "Sip your morning coffee or tea in the heart of nature with our Woodlands Coffee Mug. This charming, rustic mug is designed for campers who appreciate the simple pleasures of outdoor life. Crafted with care and attention to detail, it boasts a timeless, woodland-inspired design. The sturdy handle provides a secure grip, even when wearing gloves. Made from high-quality materials, this mug is both microwave and dishwasher safe, ensuring convenience in the wilderness. Enjoy your favorite hot beverages in style with this beutiful cup.",
+  "short-description": "Start your outdoor mornings right with our Woodlands Coffee Mug. Rustic charm meets practicality.",
+  "properties": [
+    { "id": 1, "name": "Rustic design" },
+    { "id": 2, "name": "Sturdy handle" },
+    { "id": 3, "name": "Open fire safe" },
+    { "id": 4, "name": "Dishwasher safe" },
+    { "id": 5, "name": "High-quality materials" },
+    { "id": 6, "name": "Charming illustration" }
+  ]
+}

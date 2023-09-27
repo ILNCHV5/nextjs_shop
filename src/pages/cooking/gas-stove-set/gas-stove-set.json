@@ -1,0 +1,16 @@
+{
+  "title": "Gas Stove Set",
+  "image": "../images/cooking/gas-stove-set/gas-stove-set.jpg",
+  "imageAlt": "gas-stove-set",
+  "price": "$79.99",
+  "description": "Elevate your camping cuisine with our Gas Stove Set. This portable cooking solution is perfect for outdoor enthusiasts who crave delicious meals on the go. The powerful gas stove provides quick and even heating, while the compact design ensures easy transport. With a durable construction, it's built to withstand the demands of outdoor cooking. The included cookware and utensils complete your outdoor kitchen setup, making it easy to whip up gourmet meals in the wilderness. Embrace the joy of outdoor cooking!",
+  "short-description": "Upgrade your outdoor dining experience with our Gas Stove Set. Cook gourmet meals wherever your adventures take you.",
+  "properties": [
+    { "id": 1, "name": "Portable" },
+    { "id": 2, "name": "Lightweight" },
+    { "id": 3, "name": "Quick heating" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Compact" },
+    { "id": 6, "name": "Foldable" }
+  ]
+}

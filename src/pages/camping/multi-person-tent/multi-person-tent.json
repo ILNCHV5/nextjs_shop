@@ -1,0 +1,16 @@
+{
+  "title": "Multi-Person Tent",
+  "image": "../images/camping/multi-person-tent/tent.jpg",
+  "imageAlt": "tent",
+  "price": "$149.99",
+  "description": " Step into the world of nature with our spacious and durable multi-person camping tent. Whether you're planning a family camping trip or a getaway with friends, this tent is your cozy shelter amidst the wilderness. Its easy setup and excellent weather resistance ensure you can focus on making memories instead of struggling with gear. The waterproof fabric keeps you dry even in unexpected rain showers, and the well-ventilated design ensures a comfortable night's sleep. Moreover, its lightweight and compact design make it a breeze to transport. Elevate your camping experience with this remarkable tent.",
+  "short-description": "Enhance your camping adventure with our spacious multi-person tent. Easy setup and weather resistance guarantee a comfortable stay in the great outdoors.",
+  "properties": [
+    { "id": 1, "name": "Waterproof" },
+    { "id": 2, "name": "Easy Setup" },
+    { "id": 3, "name": "Well-Ventilated" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Lightweight" },
+    { "id": 6, "name": "Compact" }
+  ]
+}
