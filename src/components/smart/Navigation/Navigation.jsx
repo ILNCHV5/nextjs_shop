@@ -48,9 +48,8 @@ function Navigation(WrappedComponent) {
               alt='logo'
               src='../images/logo/website_logo.svg'
               style={{
-                height: '2rem',
+                height: '2.4rem',
                 width: 'auto',
-                paddingLeft: '0.2rem',
                 cursor: 'pointer',
               }}
             />
@@ -60,7 +59,7 @@ function Navigation(WrappedComponent) {
             sx={{
               display: { xs: 'none', sm: 'none', md: 'flex' },
               flexDirection: 'row',
-              columnGap: '1.2rem',
+              columnGap: '1.1rem',
             }}
           >
             {menuItems.map((item) => {
@@ -71,14 +70,14 @@ function Navigation(WrappedComponent) {
                       className={styles.headerText}
                       color='black'
                       style={{ cursor: 'pointer' }}
-                      pr='0.9rem'
+                      pr='1.2rem'
                       onMouseOver={() => handleMenuOpen(item.menuId)}
                       onMouseLeave={() => handleMenuClose(item.menuId)}
                     >
                       {item.name}
                       <ArrowDropDownIcon
                         style={{
-                          transform: `translateX(3.4rem)`,
+                          transform: `translateX(4.4rem)`,
                           position: 'absolute',
                         }}
                       />
@@ -90,9 +89,9 @@ function Navigation(WrappedComponent) {
                         position: 'absolute',
                         display: targetMenuState(item.menuId) ? 'flex' : 'none',
                         flexDirection: 'column',
-                        borderRadius: '0.3rem',
+                        borderRadius: '0.4rem',
                         overflow: 'hidden',
-                        marginLeft: '-1rem',
+                        marginLeft: '-1.3rem',
                       }}
                     >
                       {item.dropdownItems.map((dropdownItem) => (
@@ -101,8 +100,8 @@ function Navigation(WrappedComponent) {
                           component='a'
                           href={dropdownItem.href}
                           className={styles.dropdownItemBox}
-                          height='2rem'
-                          px='1rem'
+                          height='2.7rem'
+                          px='1.3rem'
                           sx={{
                             backgroundColor: '#ededed',
                             display: 'flex',
@@ -117,7 +116,7 @@ function Navigation(WrappedComponent) {
                     </Box>
                   </Box>
                 );
-              } else {
+              } else if (!item.name.includes('Home')) {
                 return (
                   <Typography
                     key={item.id}
@@ -132,7 +131,7 @@ function Navigation(WrappedComponent) {
               }
             })}
           </Box>
-          {/* mobile dropdowns  */}
+          {/* mobile dropdown*/}
           <MenuIcon
             onClick={mobileMenu ? handleMobileMenuClose : handleMobileMenuOpen}
             sx={{
@@ -161,8 +160,8 @@ function Navigation(WrappedComponent) {
                       : () => handleMenuOpen(item.menuId)
                   }
                   href={item.href}
-                  pr={{ sm: '5vw', xs: '5vw' }}
-                  pl={{ sm: '5vw', xs: '10vw' }}
+                  pr={{ sm: '6.6vw', xs: '6.6vw' }}
+                  pl={{ sm: '6.6vw', xs: '13vw' }}
                 >
                   <Typography
                     className={styles.dropdownItem}
@@ -179,8 +178,8 @@ function Navigation(WrappedComponent) {
                       key={dropdownItem.id}
                       component='a'
                       href={dropdownItem.href}
-                      pr={{ sm: '6.5vw', xs: '6.5vw' }}
-                      pl={{ sm: '5vw', xs: '10vw' }}
+                      pr={{ sm: '8.6vw', xs: '8.6vw' }}
+                      pl={{ sm: '6.6vw', xs: '13vw' }}
                       backgroundColor={
                         dropdownItem.id % 2 == 0 ? '#75b97f' : '#37b34a'
                       }
@@ -193,7 +192,7 @@ function Navigation(WrappedComponent) {
               </Box>
             ))}
           </Box>
-          {/* mobile end */}
+          {/* mobile end*/}
         </Box>
         <WrappedComponent {...props} />
         <Footer />

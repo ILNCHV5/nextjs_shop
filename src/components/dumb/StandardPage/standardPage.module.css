@@ -2,29 +2,29 @@
   font-family: 'Montserrat';
 }
 .pageContainer {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.8rem;
 }
 .contentContainer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 }
 .textContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 0.8rem;
+  row-gap: 1rem;
   color: black;
 }
 .textContainer * {
   width: fit-content;
 }
 .title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .price {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #37b34a;
 }
@@ -32,13 +32,13 @@
   text-decoration: underline;
 }
 .description {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .propertiesContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 0.3rem;
+  row-gap: 0.5rem;
 }
 .property {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }

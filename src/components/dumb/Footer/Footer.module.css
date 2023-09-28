@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 .columnHeading {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
@@ -33,7 +33,7 @@ a.columnHeading:hover {
   padding-top: 1rem;
 }
 .rows {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   padding-bottom: 0.4rem;
