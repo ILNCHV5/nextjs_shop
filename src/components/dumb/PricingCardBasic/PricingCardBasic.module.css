@@ -1,0 +1,44 @@
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.priceCard {
+  padding-top: 0.8rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.mainCardText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.price {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: -0.5rem;
+}
+.taxStatus {
+  font-size: 1.1rem;
+  font-weight: 600;
+  max-width: 95%;
+  line-height: 1.5rem;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+.button {
+  color: #fefefe;
+  opacity: 1;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  line-break: strict;
+}

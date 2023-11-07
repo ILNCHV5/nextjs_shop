@@ -2,13 +2,11 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { menuItems } from '../../smart/Navigation/navigation.json';
 import styles from './Footer.module.css';
+import defaultPadding from '@/styles/defaultPadding';
 
 export function Footer() {
   return (
-    <Box
-      className={styles.footerContainer}
-      px={{ lg: '15%', md: '10%', sm: '5%', xs: '5%' }}
-    >
+    <Box className={styles.footerContainer} px={defaultPadding}>
       <Box className={styles.insideContainer}>
         {menuItems.map(
           (item) =>

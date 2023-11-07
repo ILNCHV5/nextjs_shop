@@ -1,5 +1,7 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from '../styles/theme.js';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -7,7 +9,9 @@ export default function App({ Component, pageProps }) {
       <Head>
         <link rel='icon' href='/images/favicon/favicon.ico' />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

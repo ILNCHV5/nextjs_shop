@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { Box, Typography, CardMedia } from '@mui/material';
+import { Box, Typography, CardMedia, Select } from '@mui/material';
+import MenuItem from '@mui/material/MenuItem';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import Footer from '@/components/dumb/Footer/Footer';
 import { menuItems } from './navigation.json';
 import styles from './navigation.module.css';
+import defaultPadding from '@/styles/defaultPadding';
 
 function Navigation(WrappedComponent) {
   return function (props) {
@@ -38,10 +40,7 @@ function Navigation(WrappedComponent) {
 
     return (
       <Box>
-        <Box
-          className={styles.headerContainer}
-          px={{ xl: '15%', lg: '15%', md: '10%', sm: '5%', xs: '5%' }}
-        >
+        <Box className={styles.headerContainer} px={defaultPadding}>
           <Box component='a' href='/'>
             <CardMedia
               component='img'

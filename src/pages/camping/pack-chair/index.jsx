@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '@/components/smart/Navigation/Navigation';
 import StandardPage from '@/components/dumb/StandardPage/StandardPage';
-import pageInfo from './40l-pack-chair.json';
+import pageInfo from './pack-chair.json';
 
 function PackChair() {
   return (

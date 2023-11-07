@@ -1,9 +1,9 @@
 import React from 'react';
 import Navigation from '@/components/smart/Navigation/Navigation';
 import StandardPage from '@/components/dumb/StandardPage/StandardPage';
-import pageInfo from './60l-backpack-green.json';
+import pageInfo from './backcountry-pack.json';
 
-function GreenBackpack() {
+function BackcountryPack() {
   return (
     <StandardPage
       image={pageInfo.image}
@@ -16,4 +16,4 @@ function GreenBackpack() {
   );
 }
 
-export default Navigation(GreenBackpack);
+export default Navigation(BackcountryPack);

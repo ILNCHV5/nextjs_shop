@@ -1,0 +1,15 @@
+{
+  "title": "Backpack /w Integrated Chair",
+  "image": "../images/camping/40l-pack-chair/40l-pack-chair.jpg",
+  "imageAlt": "pack-chair",
+  "price": "$89.99",
+  "description": " Our backpack with an integrated chair is the ultimate hiking companion. It's not just a backpack; it's your portable basecamp. With ample storage space for your gear and a built-in chair for convenient rest stops, this backpack ensures you're always prepared for adventure. The lightweight yet durable design means you can hike for hours without feeling weighed down. Multiple pockets keep your essentials organized, and the comfortable straps make carrying a breeze. This backpack is designed to make your outdoor excursions comfortable and enjoyable.",
+  "short-description": "Hike in comfort with our 40L backpack and integrated chair combo. Stay prepared and take a seat whenever you need it.",
+  "properties": [
+    { "id": 1, "name": "Lightweight" },
+    { "id": 2, "name": "Strong seams" },
+    { "id": 3, "name": "Comfortable straps" },
+    { "id": 4, "name": "Durable" },
+    { "id": 5, "name": "Multiple Pockets" }
+  ]
+}

@@ -1,0 +1,23 @@
+.overflowContainer {
+  overflow: hidden;
+  z-index: -2;
+}
+.contentContainer {
+  width: 100vw;
+  height: 40rem;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, background-size 0.5s ease,
+    text-shadow 0.5s ease; /* Added text-shadow transition */
+}
+.contentContainer:hover {
+  transform: scale(1.03);
+}
+.title {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}

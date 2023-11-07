@@ -1,0 +1,881 @@
+{
+  "pageTitle": "Pricing",
+  "linkLanguagePrefix": "",
+  "colors": [
+    {
+      "id": 1,
+      "background": "#f0faf1",
+      "button": "#37b34a",
+      "sliderThumb": "#37b34a",
+      "sliderRail": "#1C2F72",
+      "sliderMark": "#FEFEFE"
+    },
+    {
+      "id": 2,
+      "background": "#f2f0f0",
+      "button": "black",
+      "sliderThumb": "black",
+      "sliderRail": "#666464",
+      "sliderMark": "#FEFEFE"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "Camping",
+      "cards": [
+        {
+          "id": 1,
+          "cardName": "Multi-Person Tent",
+          "href": "/camping/multi-person-tent",
+          "taxStatus": "tax incl.",
+          "buttonText": "Purchase",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "2prs",
+              "price": "$149.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Enhance your camping adventure with our spacious multi-person tent. Easy setup and weather resistance guarantee a comfortable stay in the great outdoors."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Waterproof"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Easy Setup"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Well-Ventilated"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Lightweight"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Compact"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "value": 50,
+              "flavorName": "3prs",
+              "price": "$179.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Enhance your camping experience with our spacious 3-person tent. Effortless setup and weather resistance ensure a pleasant stay in the great outdoors."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Water-Resistant"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Simple Assembly"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Well-Aerated"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Sturdy"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Light and Portable"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Compact Design"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "value": 100,
+              "flavorName": "4prs",
+              "price": "$209.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Enhance your camping outing with our spacious 4-person tent. Quick setup and weatherproof construction ensure a cozy stay in the great outdoors."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Waterproof and Durable"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Effortless Assembly and Reinforced Seams"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Comfortable Straps and Reliable Stitching"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Sturdy and Long-Lasting"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Ample Pockets"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "cardName": "Chair and Table Set",
+          "href": "/camping/chair-table-set",
+          "taxStatus": "tax incl.",
+          "buttonText": "Purchase",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$69.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Upgrade your outdoor relaxation with our camping chair and table set. Comfort and convenience in one package."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Foldable"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Compact"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Lightweight"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Sturdy"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Built-in cup holder"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Broad leg platforms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "cardName": "Car Roof Camping Setup",
+          "href": "/camping/car-roof-setup",
+          "taxStatus": "tax incl.",
+          "buttonText": "Request",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$399.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Elevate your camping adventure with our car roof camping setup. Sleep comfortably wherever your journey takes you."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Easy Setup"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Space-saving"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Comfortable Mattress"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Weather-resistant"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Versatile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "cardName": "Backpack /w Integrated Chair",
+          "href": "/camping/pack-chair",
+          "taxStatus": "tax incl.",
+          "buttonText": "Purchase",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "40L",
+              "price": "$89.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Hike in comfort with our 40L backpack and integrated chair combo. Stay prepared and take a seat whenever you need it."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Lightweight"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Strong seams"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Comfortable straps"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Multiple Pockets"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "flavorName": "50L",
+              "price": "$99.99",
+
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Hike comfortably with our 50L backpack and built-in chair. Be prepared and have a seat whenever you wish."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Light and easy to carry"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Sturdy stitching"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Cozy straps"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Long-lasting"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Multiple Compartments"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "cardName": "Handmade Woodlands Hatchet",
+          "href": "/camping/handmade-woodlands-hatchet",
+          "taxStatus": "tax incl.",
+          "buttonText": "Purchase",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$99.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Unleash your inner woodsman with our handmade woodlands axe. Durable and versatile for all your outdoor needs."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Handmade"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Finely sharpened"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Comfortable handle"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Versatile"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "High-quality steel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "cardName": "Backcountry Pack",
+          "href": "/camping/backcountry-pack",
+          "taxStatus": "tax incl.",
+          "buttonText": "Purchase",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "35L",
+              "price": "$129.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Elevate your outdoor journeys with this backpack. Roomy, convenient, and prepared for any expedition."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Ample space"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Adjustable shoulder straps"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Sturdy construction"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Long-lasting"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Numerous compartments"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Versatile usage"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "value": 50,
+              "flavorName": "50L",
+              "price": "$159.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Elevate your outdoor adventures with this pack in a vibrant green shade. Spacious, user-friendly, and ready for any journey."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Plenty of room"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Customizable straps"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Robust build"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Multiple compartments"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Adaptable usage"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "value": 100,
+              "flavorName": "65L",
+              "price": "$179.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Enhance your outdoor escapades with our green series backpack. Spacious, convenient, and primed for any adventure."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Ample storage"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Customizable shoulder straps"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Rugged construction"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Built to last"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Versatile usage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cooking",
+      "cards": [
+        {
+          "id": 1,
+          "cardName": "Handmade Camping Knife",
+          "href": "/cooking/handmade-camping-knife",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "14cm",
+              "price": "$139.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Elevate your camping adventures with our handmade camping knife. Precision-crafted for durability and versatility."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Handmade"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Razor-sharp blade"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Ergonomic handle"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Multi-purpose"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "High-quality steel"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "flavorName": "17cm",
+              "price": "$159.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Enhance your outdoor experiences with our handcrafted camping knife. Expertly designed for longevity and adaptability."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Handcrafted"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Ultra-sharp blade"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Comfortable grip"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Sturdy"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Versatile utility"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Premium steel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "cardName": "Woodlands Coffee Mug",
+          "href": "/cooking/woodlands-coffee-mug",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$12.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Start your outdoor mornings right with our Woodlands Coffee Mug. Rustic charm meets practicality."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Rustic design"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Sturdy handle"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Open fire safe"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Dishwasher safe"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "High-quality materials"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Charming illustration"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "cardName": "Gas Stove Set",
+          "href": "/cooking/gas-stove-set",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$79.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Upgrade your outdoor dining experience with our Gas Stove Set. Cook gourmet meals wherever your adventures take you."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Portable"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Lightweight"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Quick heating"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Compact"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Foldable"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "cardName": "Crock Pot Set",
+          "href": "/cooking/crock-pot-set",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$99.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Experience the joy of slow cooking at your campsite with our Crock Pot Set. Hearty meals, wherever you roam."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Slow cooking"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Temperature control"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Convenient"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Non-corrosive"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "High-quality steel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "cardName": "Non-Stick Camping Pan",
+          "href": "/cooking/non-stick-camping-pan",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$43.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Elevate your outdoor cooking game with our Non-Stick Camping Pan. Delicious meals, no fuss."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Non-stick surface"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Lightweight"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Compact"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Foldable handle"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Easy cleanup"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Open-fire approved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "cardName": "Thermos Set",
+          "href": "/cooking/thermos-set",
+          "taxStatus": "tax incl.",
+          "buttonText": "Get now",
+          "cardFlavors": [
+            {
+              "id": 1,
+              "value": 0,
+              "flavorName": "",
+              "price": "$49.99",
+              "parameters": [
+                {
+                  "id": 1,
+                  "text": "Stay refreshed on your camping journey with our Thermos Set. Hot or cold, your drinks, your way."
+                },
+                {
+                  "id": 2,
+                  "bulleted": true,
+                  "text": "Double wall insulation"
+                },
+                {
+                  "id": 3,
+                  "bulleted": true,
+                  "text": "Matching mugs"
+                },
+                {
+                  "id": 4,
+                  "bulleted": true,
+                  "text": "Comfortable handle"
+                },
+                {
+                  "id": 5,
+                  "bulleted": true,
+                  "text": "Durable"
+                },
+                {
+                  "id": 6,
+                  "bulleted": true,
+                  "text": "Anti-spill lid"
+                },
+                {
+                  "id": 7,
+                  "bulleted": true,
+                  "text": "Stylish"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

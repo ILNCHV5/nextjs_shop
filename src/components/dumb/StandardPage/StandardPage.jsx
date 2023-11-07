@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, CardMedia, Typography } from '@mui/material';
 import styles from './standardPage.module.css';
+import defaultPadding from '@/styles/defaultPadding';
 
 function StandardPage({
   image,
@@ -13,10 +14,11 @@ function StandardPage({
   return (
     <Box
       className={styles.pageContainer}
-      px={{ lg: '15%', md: '10%', sm: '5%' }}
+      px={{ ...defaultPadding, xs: '0%' }}
       pt={{ xs: 0, sm: '1.5rem' }}
       backgroundColor='white'
     >
+      {console.log(defaultPadding)}
       <Box
         className={styles.contentContainer}
         sx={{
@@ -30,7 +32,7 @@ function StandardPage({
           alt={imageAlt}
           sx={{
             width: { xs: '100%', sm: 'auto' },
-            height: { xs: 'auto', sm: '27rem' },
+            height: { xs: 'auto', sm: '30rem', md: '35rem', lg: '40rem' },
           }}
         />
         <Box

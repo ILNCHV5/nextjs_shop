@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  width: 100%;
+  max-width: 32%;
+  min-width: 20rem;
+  gap: 10px;
+  color: black;
+}
+.textBox {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+.cardName {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  max-width: 10rem;
+  padding-bottom: 0.3rem;
+}
+.flavorName {
+  font-size: 1.3rem;
+  padding-bottom: 0.3rem;
+}
+.priceHourly {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.description {
+  overflow: auto;
+}
+.description::-webkit-scrollbar {
+  width: 0.3rem;
+}
+.descriptionItem {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.readMore {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
