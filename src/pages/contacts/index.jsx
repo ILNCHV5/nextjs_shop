@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Button, TextField, Typography } from '@mui/material';
-import Navigation from '@/components/smart/Navigation/Navigation';
+import Navigation from '@/components/dumb/Navigation/Navigation';
 import defaultPadding from '@/styles/defaultPadding';
 import pageInfo from './contacts.json';
 

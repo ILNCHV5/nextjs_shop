@@ -1,28 +1,26 @@
-{
-  "panels": [
-    {
-      "id": 1,
-      "backgroundImage": "/images/homepage/homepage1.jpg",
-      "textAlign": "start",
-      "title": "Rediscover the outdoors!",
-      "subTitle": "Camping and trekking reimagined through our innovative gear",
-      "href": "/pricing"
-    },
-    {
-      "id": 2,
-      "backgroundImage": "/images/homepage/homepage2.jpg",
-      "textAlign": "end",
-      "title": "What drives us?",
-      "subTitle": "Find out what our mission and goals are",
-      "href": "/about"
-    },
-    {
-      "id": 3,
-      "backgroundImage": "/images/homepage/homepage3.jpg",
-      "textAlign": "start",
-      "title": "Get in touch!",
-      "subTitle": "Order some gear, ask us anything or just say `Hi`",
-      "href": "/contacts"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "backgroundImage": "/images/homepage/homepage1.jpg",
+    "textAlign": "start",
+    "title": "Rediscover the outdoors!",
+    "subTitle": "Camping and trekking reimagined through our innovative gear",
+    "href": "/pricing"
+  },
+  {
+    "id": 2,
+    "backgroundImage": "/images/homepage/homepage2.jpg",
+    "textAlign": "end",
+    "title": "What drives us?",
+    "subTitle": "Find out what our mission and goals are",
+    "href": "/about"
+  },
+  {
+    "id": 3,
+    "backgroundImage": "/images/homepage/homepage3.jpg",
+    "textAlign": "start",
+    "title": "Get in touch!",
+    "subTitle": "Order some gear, ask us anything or just say `Hi`",
+    "href": "/contacts"
+  }
+]

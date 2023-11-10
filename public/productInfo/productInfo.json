@@ -1,6 +1,5 @@
 {
   "pageTitle": "Pricing",
-  "linkLanguagePrefix": "",
   "colors": [
     {
       "id": 1,
@@ -26,10 +25,13 @@
       "cards": [
         {
           "id": 1,
-          "cardName": "Multi-Person Tent",
+          "title": "Multi-Person Tent",
           "href": "/camping/multi-person-tent",
           "taxStatus": "tax incl.",
           "buttonText": "Purchase",
+          "description": " Step into the world of nature with our spacious and durable multi-person camping tent. Whether you're planning a family camping trip or a getaway with friends, this tent is your cozy shelter amidst the wilderness. Its easy setup and excellent weather resistance ensure you can focus on making memories instead of struggling with gear. The waterproof fabric keeps you dry even in unexpected rain showers, and the well-ventilated design ensures a comfortable night's sleep. Moreover, its lightweight and compact design make it a breeze to transport. Elevate your camping experience with this remarkable tent.",
+          "image": "../images/camping/multi-person-tent/tent.jpg",
+          "imageAlt": "tent",
           "cardFlavors": [
             {
               "id": 1,
@@ -156,10 +158,13 @@
         },
         {
           "id": 2,
-          "cardName": "Chair and Table Set",
+          "title": "Chair and Table Set",
           "href": "/camping/chair-table-set",
           "taxStatus": "tax incl.",
           "buttonText": "Purchase",
+          "description": "Reimagine your camping experience with our versatile camping chair and table set. Picture yourself sitting by the campfire, sipping a hot beverage, with everything you need conveniently placed on the sturdy table beside you. This set is designed for outdoor enthusiasts who prioritize comfort and convenience. The foldable and lightweight chair is easy to transport, and the integrated cup holder keeps your drink secure. When you're done, simply fold it up and stow it away. Elevate your camping comfort with this all-in-one solution.",
+          "image": "../images/camping/chair-table-set/chair-table-set.jpg",
+          "imageAlt": "chair-table-set",
           "cardFlavors": [
             {
               "id": 1,
@@ -207,10 +212,13 @@
         },
         {
           "id": 3,
-          "cardName": "Car Roof Camping Setup",
+          "title": "Car Roof Camping Setup",
           "href": "/camping/car-roof-setup",
           "taxStatus": "tax incl.",
           "buttonText": "Request",
+          "description": " Take your camping to new heights with our innovative car roof camping setup. This space-saving solution turns your vehicle into a cozy sleeping haven, complete with a comfortable mattress. Whether you're embarking on a road trip or a remote camping adventure, this setup offers unparalleled convenience. It's easy to install, weather-resistant, and versatile enough to fit various car models. Imagine stargazing from the comfort of your car roof, with nature as your backdrop. Elevate your camping experience and unlock the potential of the great outdoors with this remarkable setup.",
+          "image": "../images/camping/car-roof-setup/car-roof-setup.jpg",
+          "imageAlt": "car-roof-setup",
           "cardFlavors": [
             {
               "id": 1,
@@ -258,10 +266,13 @@
         },
         {
           "id": 4,
-          "cardName": "Backpack /w Integrated Chair",
+          "title": "Backpack /w Integrated Chair",
           "href": "/camping/pack-chair",
           "taxStatus": "tax incl.",
           "buttonText": "Purchase",
+          "description": "Our backpack with an integrated chair is the ultimate hiking companion. It's not just a backpack; it's your portable basecamp. With ample storage space for your gear and a built-in chair for convenient rest stops, this backpack ensures you're always prepared for adventure. The lightweight yet durable design means you can hike for hours without feeling weighed down. Multiple pockets keep your essentials organized, and the comfortable straps make carrying a breeze. This backpack is designed to make your outdoor excursions comfortable and enjoyable.",
+          "image": "../images/camping/40l-pack-chair/40l-pack-chair.jpg",
+          "imageAlt": "pack-chair",
           "cardFlavors": [
             {
               "id": 1,
@@ -271,7 +282,7 @@
               "parameters": [
                 {
                   "id": 1,
-                  "text": "Hike in comfort with our 40L backpack and integrated chair combo. Stay prepared and take a seat whenever you need it."
+                  "text": "Hike in comfort with our backpack and integrated chair combo. Stay prepared and take a seat whenever you need it."
                 },
                 {
                   "id": 2,
@@ -342,10 +353,13 @@
         },
         {
           "id": 5,
-          "cardName": "Handmade Woodlands Hatchet",
+          "title": "Handmade Woodlands Hatchet",
           "href": "/camping/handmade-woodlands-hatchet",
           "taxStatus": "tax incl.",
           "buttonText": "Purchase",
+          "description": " Embrace your inner woodsman with our meticulously handmade woodlands axe/hatchet. Crafted with precision and durability in mind, this tool is more than just an accessory; it's your trusty companion for the great outdoors. Whether you're chopping wood for a campfire or clearing a trail, its sharp blade and comfortable grip make every task a breeze. The high-quality steel ensures long-lasting performance even in rugged conditions. Take control of your outdoor adventures with this exceptional woodlands axe.",
+          "image": "../images/camping/handmade-woodlands-hatchet/handmade-woodlands-hatchet.jpg",
+          "imageAlt": "handmade-woodlands-hatchet",
           "cardFlavors": [
             {
               "id": 1,
@@ -393,10 +407,13 @@
         },
         {
           "id": 6,
-          "cardName": "Backcountry Pack",
+          "title": "Backcountry Pack",
           "href": "/camping/backcountry-pack",
           "taxStatus": "tax incl.",
           "buttonText": "Purchase",
+          "description": "Our 60L green backpack is meticulously designed for the avid adventurer. With its ample storage space, comfortable straps, and rugged construction, it's the ideal choice for extended outdoor excursions. Whether you're hiking through pristine wilderness or embarking on a backpacking journey, this backpack keeps you organized and comfortable throughout. The spacious interior accommodates all your gear, while the durable materials withstand the challenges of the trail. Experience the outdoors like never before with this reliable and spacious backpack.",
+          "image": "../images/camping/60l-backpack-green/60l-backpack-green.jpg",
+          "imageAlt": "60l-backpack-green",
           "cardFlavors": [
             {
               "id": 1,
@@ -529,10 +546,13 @@
       "cards": [
         {
           "id": 1,
-          "cardName": "Handmade Camping Knife",
+          "title": "Handmade Camping Knife",
           "href": "/cooking/handmade-camping-knife",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": "Crafted with precision and a passion for the outdoors, our handmade camping knife is a testament to quality and functionality. This versatile tool is an essential companion for any camping trip. Its razor-sharp blade ensures effortless cutting of rope, food, and more. The ergonomic handle provides a comfortable grip, reducing hand fatigue during prolonged use. With a durable construction, this camping knife is built to withstand the rigors of the wilderness. Equip yourself with this reliable tool to enhance your camping experience.",
+          "image": "../images/cooking/handmade-camping-knife/handmade-camping-knife.jpg",
+          "imageAlt": "handmade-camping-knife",
           "cardFlavors": [
             {
               "id": 1,
@@ -622,10 +642,13 @@
         },
         {
           "id": 2,
-          "cardName": "Woodlands Coffee Mug",
+          "title": "Woodlands Coffee Mug",
           "href": "/cooking/woodlands-coffee-mug",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": "Sip your morning coffee or tea in the heart of nature with our Woodlands Coffee Mug. This charming, rustic mug is designed for campers who appreciate the simple pleasures of outdoor life. Crafted with care and attention to detail, it boasts a timeless, woodland-inspired design. The sturdy handle provides a secure grip, even when wearing gloves. Made from high-quality materials, this mug is both microwave and dishwasher safe, ensuring convenience in the wilderness. Enjoy your favorite hot beverages in style with this beutiful cup.",
+          "image": "../images/cooking/woodlands-coffee-mug/woodlands-coffee-mug.jpg",
+          "imageAlt": "woodlands-coffee-mug",
           "cardFlavors": [
             {
               "id": 1,
@@ -673,10 +696,13 @@
         },
         {
           "id": 3,
-          "cardName": "Gas Stove Set",
+          "title": "Gas Stove Set",
           "href": "/cooking/gas-stove-set",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": "Elevate your camping cuisine with our Gas Stove Set. This portable cooking solution is perfect for outdoor enthusiasts who crave delicious meals on the go. The powerful gas stove provides quick and even heating, while the compact design ensures easy transport. With a durable construction, it's built to withstand the demands of outdoor cooking. The included cookware and utensils complete your outdoor kitchen setup, making it easy to whip up gourmet meals in the wilderness. Embrace the joy of outdoor cooking!",
+          "image": "../images/cooking/gas-stove-set/gas-stove-set.jpg",
+          "imageAlt": "gas-stove-set",
           "cardFlavors": [
             {
               "id": 1,
@@ -724,10 +750,13 @@
         },
         {
           "id": 4,
-          "cardName": "Crock Pot Set",
+          "title": "Crock Pot Set",
           "href": "/cooking/crock-pot-set",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": "Bring the comforts of home to your campsite! Slow cook delicious, hearty meals even in the remotest of locations. This set includes a reliable crock pot and utensils, ensuring you have everything you need to prepare flavorful dishes. The crock pot's durable construction and temperature control make it a must-have for extended camping trips. Whether you're making chili, stew, or other savory creations, this set transforms your campsite into a culinary haven. Enjoy the warmth and aroma of home-cooked meals with our Crock Pot Set.",
+          "image": "../images/cooking/crock-pot-set/crock-pot-set.jpg",
+          "imageAlt": "crock-pot-set",
           "cardFlavors": [
             {
               "id": 1,
@@ -775,10 +804,13 @@
         },
         {
           "id": 5,
-          "cardName": "Non-Stick Camping Pan",
+          "title": "Non-Stick Camping Pan",
           "href": "/cooking/non-stick-camping-pan",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": "Cook up a storm in the great outdoors with our Non-Stick Camping Pan. This versatile pan is designed for campers who love to whip up delicious meals. Its non-stick surface ensures easy cooking and even easier cleanup, while the lightweight design makes it perfect for backpacking trips. The sturdy handle provides a secure grip, and the compact size fits easily into your camping gear. Whether you're frying eggs at sunrise or sautéing veggies under the stars, this pan is your trusty companion for outdoor cooking adventures.",
+          "image": "../images/cooking/non-stick-camping-pan/non-stick-camping-pan.jpg",
+          "imageAlt": "non-stick-camping-pan",
           "cardFlavors": [
             {
               "id": 1,
@@ -826,10 +858,13 @@
         },
         {
           "id": 6,
-          "cardName": "Thermos Set",
+          "title": "Thermos Set",
           "href": "/cooking/thermos-set",
           "taxStatus": "tax incl.",
           "buttonText": "Get now",
+          "description": " Keep your beverages piping hot or refreshingly cold during your camping adventures! This set includes a durable thermos flask and matching mugs, ensuring you stay hydrated in style. The thermos flask's double-wall insulation maintains the temperature of your drinks for hours, whether it's hot coffee on a chilly morning or ice-cold water on a scorching day. The mugs are designed for comfort, with easy-to-grip handles and spill-resistant lids. Stay refreshed and enjoy your favorite drinks wherever you go with our Thermos Set.",
+          "image": "../images/cooking/thermos-set/thermos-set.jpg",
+          "imageAlt": "thermos-set",
           "cardFlavors": [
             {
               "id": 1,

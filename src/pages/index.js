@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Navigation from '@/components/smart/Navigation/Navigation';
+import Navigation from '@/components/dumb/Navigation/Navigation.jsx';
 import HomepagePanel from '@/components/dumb/HomepagePanel/HomepagePanel';
-import { panels } from './home.json';
+import panels from './home.json';
 
 function Home() {
   return (

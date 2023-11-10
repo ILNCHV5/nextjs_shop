@@ -1,0 +1,23 @@
+.sectionsContainer {
+  padding-bottom: 5rem;
+  background-color: white;
+}
+.section {
+  padding-bottom: 3rem;
+}
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.sectionContents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+}

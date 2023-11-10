@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material';
 import defaultPadding from '@/styles/defaultPadding';
 import { Fade } from 'react-reveal';
 import styles from './HomepagePanel.module.css';
+import PropTypes from 'prop-types';
 
 function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
   return (
@@ -39,3 +40,11 @@ function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
 }
 
 export default HomepagePanel;
+
+HomepagePanel.propTypes = {
+  backgroundImage: PropTypes.string.isRequired,
+  textAlign: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+};

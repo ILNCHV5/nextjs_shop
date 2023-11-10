@@ -28,11 +28,19 @@
 .description {
   font-size: 0.9rem;
 }
-.propertiesContainer {
+.parametersContainer {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
 }
-.property {
+.parameter {
   font-size: 0.9rem;
+}
+.button {
+  margin-top: 1.5rem;
+  background: #37b34a;
+}
+.button:hover {
+  background-color: black;
+  color: white;
 }

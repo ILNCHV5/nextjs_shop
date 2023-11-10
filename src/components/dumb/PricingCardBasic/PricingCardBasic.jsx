@@ -1,6 +1,7 @@
 import { React } from 'react';
 import { Slider, Button, Box, Typography } from '@mui/material';
 import styles from './PricingCardBasic.module.css';
+import PropTypes from 'prop-types';
 
 function PricingCardBasic({
   price,
@@ -80,3 +81,26 @@ function PricingCardBasic({
   );
 }
 export default PricingCardBasic;
+
+PricingCardBasic.propTypes = {
+  price: PropTypes.string.isRequired,
+  taxStatus: PropTypes.string.isRequired,
+  sliderValue: PropTypes.number.isRequired,
+  sliderMarks: PropTypes.arrayOf(
+    PropTypes.shape({
+      value: PropTypes.number.isRequired,
+      label: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+  handleSliderChange: PropTypes.func.isRequired,
+  handleMouseUp: PropTypes.func.isRequired,
+  buttonText: PropTypes.string.isRequired,
+  colors: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    background: PropTypes.string.isRequired,
+    button: PropTypes.string.isRequired,
+    sliderThumb: PropTypes.string.isRequired,
+    sliderRail: PropTypes.string.isRequired,
+    sliderMark: PropTypes.string.isRequired,
+  }).isRequired,
+};

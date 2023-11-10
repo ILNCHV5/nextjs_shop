@@ -1,7 +1,8 @@
 import React from 'react';
-import { Box, CardMedia, Typography } from '@mui/material';
+import { Box, CardMedia, Typography, Button } from '@mui/material';
 import styles from './standardPage.module.css';
 import defaultPadding from '@/styles/defaultPadding';
+import PropTypes from 'prop-types';
 
 function StandardPage({
   image,
@@ -9,7 +10,7 @@ function StandardPage({
   title,
   price,
   description,
-  properties,
+  parameters,
 }) {
   return (
     <Box
@@ -18,7 +19,6 @@ function StandardPage({
       pt={{ xs: 0, sm: '1.5rem' }}
       backgroundColor='white'
     >
-      {console.log(defaultPadding)}
       <Box
         className={styles.contentContainer}
         sx={{
@@ -51,13 +51,22 @@ function StandardPage({
               {description}
             </Typography>
           )}
-          <Box className={styles.propertiesContainer}>
-            {properties.map((item) => (
-              <Typography className={styles.property} key={item.id}>
-                {`${item.name.length <= 50 ? '○' : ''} ${item.name}`}
+          <Box className={styles.parametersContainer}>
+            {parameters.map((item) => (
+              <Typography className={styles.parameter} key={item.id}>
+                {item.id != 1 &&
+                  `${item.text.length <= 50 ? '○' : ''} ${item.text}`}
               </Typography>
             ))}
           </Box>
+          <Button
+            className={styles.button}
+            variant='contained'
+            size='large'
+            href={`/pricing`}
+          >
+            Purchase
+          </Button>
         </Box>
       </Box>
     </Box>
@@ -65,3 +74,18 @@ function StandardPage({
 }
 
 export default StandardPage;
+
+StandardPage.propTypes = {
+  image: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  price: PropTypes.string,
+  description: PropTypes.string,
+  parameters: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+      bulleted: PropTypes.bool,
+    }),
+  ).isRequired,
+};

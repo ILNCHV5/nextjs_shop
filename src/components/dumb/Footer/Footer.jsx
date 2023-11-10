@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { menuItems } from '../../smart/Navigation/navigation.json';
+import menuItems from '../../smart/Header/header.json';
 import styles from './Footer.module.css';
 import defaultPadding from '@/styles/defaultPadding';
 
-export function Footer() {
+function Footer() {
   return (
     <Box className={styles.footerContainer} px={defaultPadding}>
       <Box className={styles.insideContainer}>
