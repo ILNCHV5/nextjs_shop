@@ -1,11 +1,17 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import defaultPadding from '@/styles/defaultPadding';
-import { Fade } from 'react-reveal';
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import styles from './HomepagePanel.module.css';
 import PropTypes from 'prop-types';
 
 function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: '0px 0px -30% 0px',
+  });
+
   return (
     <Box className={styles.overflowContainer}>
       <Box
@@ -16,7 +22,13 @@ function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
           textAlign: textAlign,
         }}
       >
-        <Fade bottom>
+        <motion.div
+          ref={ref}
+          initial={{ y: 20, opacity: 0 }}
+          animate={inView ? { y: 0, opacity: 1 } : {}}
+          exit={{ y: 20, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+        >
           <Box component={href ? 'a' : 'div'} href={href}>
             <Typography
               className={styles.title}
@@ -33,7 +45,7 @@ function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
               {subTitle}
             </Typography>
           </Box>
-        </Fade>
+        </motion.div>
       </Box>
     </Box>
   );

@@ -69,10 +69,11 @@ function PricingCardBasic({
       <Button
         variant='contained'
         size='medium'
-        href={`/contact`}
+        href={`/contacts`}
         className={styles.button}
         sx={{
           background: colors.button,
+          '&:hover': { background: colors.id === 1 ? 'black' : '#37b34a' },
         }}
       >
         {buttonText}
