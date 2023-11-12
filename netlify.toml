@@ -1,2 +1,6 @@
 [build.processing]
   skip_processing = true
+[build.processing.css]
+  minify = false
+  bundle = false
+
