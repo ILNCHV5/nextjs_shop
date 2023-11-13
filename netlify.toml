@@ -1,9 +1,0 @@
-[build.processing]
-  skip_processing = true
-[build.processing.css]
-  minify = false
-  bundle = false
-[build.processing.js]
-  minify = false
-  bundle = false
-
