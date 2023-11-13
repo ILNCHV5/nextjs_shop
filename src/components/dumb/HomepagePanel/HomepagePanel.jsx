@@ -40,6 +40,7 @@ function HomepagePanel({ backgroundImage, textAlign, title, subTitle, href }) {
               {title}
             </Typography>
             <Typography
+              className={styles.subTitle}
               sx={{ fontSize: { xs: '1rem', sm: '1.3rem', md: '2rem' } }}
             >
               {subTitle}

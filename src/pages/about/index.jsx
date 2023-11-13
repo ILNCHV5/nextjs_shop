@@ -12,6 +12,7 @@ function About() {
       price={pageInfo.price}
       description={pageInfo.description}
       parameters={pageInfo.parameters}
+      button={false}
     />
   );
 }

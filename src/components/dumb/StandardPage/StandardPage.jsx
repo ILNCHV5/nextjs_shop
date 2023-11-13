@@ -11,6 +11,7 @@ function StandardPage({
   price,
   description,
   parameters,
+  button,
 }) {
   return (
     <Box
@@ -59,14 +60,16 @@ function StandardPage({
               </Typography>
             ))}
           </Box>
-          <Button
-            className={styles.button}
-            variant='contained'
-            size='large'
-            href={`/pricing`}
-          >
-            Purchase
-          </Button>
+          {button === undefined && (
+            <Button
+              className={styles.button}
+              variant='contained'
+              size='large'
+              href={`/pricing`}
+            >
+              Purchase
+            </Button>
+          )}
         </Box>
       </Box>
     </Box>
@@ -88,4 +91,5 @@ StandardPage.propTypes = {
       bulleted: PropTypes.bool,
     }),
   ).isRequired,
+  button: PropTypes.bool,
 };
